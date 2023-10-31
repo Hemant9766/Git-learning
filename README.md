@@ -1,10 +1,10 @@
 # Git-learning
 
-What is Git?
+1.What is Git?
 
  :- Git is a popular version control system. It was created by Linus Torvalds in 2005, and has been maintained by Junio Hamano since then.
 
-It is used for:
+2.It is used for:
 
 •	Tracking code changes
 
@@ -12,7 +12,7 @@ It is used for:
 
 •	Coding collaboration
 
-What does Git do? :-
+3.What does Git do? :-
 
 •	Manage projects with Repositories
 
@@ -26,7 +26,7 @@ What does Git do? :-
 
 •	Push local updates to the main project
 
-Working with Git :-
+4.Working with Git :-
 
 •	Initialize Git on a folder, making it a Repository
 
@@ -44,7 +44,7 @@ Working with Git :-
 
 •	Git does not store a separate copy of every file in every commit, but keeps track of changes made in each commit!
 
- 	Why Git? :- 
+ 5.Why Git? :- 
   
 •	Over 70% of developers use Git!
 
