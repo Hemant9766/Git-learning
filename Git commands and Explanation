@@ -1,0 +1,44 @@
+GIT-Commands and Explanations
+
+	git init :- 
+git init is a command that initializes a new Git repository in a directory, allowing you to start tracking changes and version control for your project.
+
+	git add :-
+git add` is a command in Git that stages changes, preparing them to be included in the next commit. It allows you to select specific files or changes in your working directory to be included in the next snapshot of your project's history.
+
+	git status
+git status` is a Git command that provides information about the current state of your working directory and the staging area. It shows you which files are modified, untracked, or staged for the next commit.
+
+	git commit :- git commit –m “message”
+`git commit` is a Git command used to save the changes you've staged (using `git add`) into the project's version history. It creates a new snapshot of your project, and you can add a commit message to describe the changes you've made.
+
+	git log :- 
+`git log` is a Git command that displays a chronological list of all the commits in the project's version history, showing details such as commit hashes, authors, dates, and commit messages.
+
+	git diff :- 
+ `git diff` is a Git command that displays the differences (changes) between the current working directory and the most recent commit. It helps you see what has been modified, added, or deleted in your files.
+
+	git reset  :- git reset --hard ‘commit id’
+`git reset` is a Git command that allows you to unstage changes, move the HEAD pointer, or reset your project to a previous commit. It's a versatile command for managing the state of your repository.
+
+	git remote –v :- 
+`git remote` is a Git command used to manage remote repositories. It allows you to view, add, rename, and remove remote repositories that you can collaborate with or fetch/push changes to/from.
+
+	git clone :- 
+In short, `git clone` is a command to make a local copy of a remote Git repository, allowing you to work on the project and access its entire history and files.
+
+	git checkout –b :- 
+`git checkout -b` is a Git command used to create a new branch and switch to that branch in a single step. In short, it combines branch creation and checkout into one command, making it convenient for branching off from the current state of your project.
+        *git checkout “branch name” – is used for Switch the branch 
+
+	git cherry-pick
+git cherry-pick allows you to copy and apply specific individual commits from one branch to another. It's a way to selectively add changes without merging entire branches. 
+              *git cherry-pick “commit id”
+
+	git marge 
+`git merge` combines changes from one branch into another. Check out the target branch, use `git merge source-branch`, resolve conflicts if necessary, commit the merge, and push the changes if working with a remote repository.
+               *git magre “branch name”
+
+	git rebase
+git rebase is used to integrate changes from one branch into another by rewriting the commit history.
+               *git rebase “branch name”
